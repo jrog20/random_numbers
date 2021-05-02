@@ -15,14 +15,8 @@ def main():
     """
     Print 10 random numbers between 0 - 100.
     """
-
-    # random.seed (1)
-
-    # Call to generate 10 random numbers
     for i in range(10):
-        # Define range of random numbers
         NUM_RANDOM = random.randint(MIN_RANDOM, MAX_RANDOM)
-        # Print 10 random numbers
         print(NUM_RANDOM)
 
 
